@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soft Landing - A Gentle Mood Check-In</title>
+    <meta name="description" content="A quiet space to process separation. 60 seconds every evening. No analysis. No judgment.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="alternate" hreflang="en" href="?lang=en">
+    <link rel="alternate" hreflang="sv" href="?lang=sv">
+    <link rel="alternate" hreflang="es" href="?lang=es">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">Soft Landing</div>
+            <div class="lang-switcher">
+                <button class="lang-btn" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="sv">SV</button>
+                <button class="lang-btn" data-lang="es">ES</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 data-i18n="hero.title">A quiet space to process separation</h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">60 seconds every evening. No analysis. No judgment.</p>
+                <div class="hero-cta">
+                    <a href="#download" class="btn btn-primary" data-i18n="hero.cta">Download on the App Store</a>
+                </div>
+                <p class="hero-trial" data-i18n="hero.trial">14-day free trial included</p>
+            </div>
+            <div class="hero-visual">
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <div class="app-preview">
+                            <p class="preview-question" data-i18n="preview.question">What do you need most right now?</p>
+                            <div class="mood-emojis">
+                                <span>😢</span>
+                                <span>😔</span>
+                                <span>😐</span>
+                                <span>🙂</span>
+                                <span>😊</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <h2 class="section-title" data-i18n="features.title">Built for emotional exhaustion</h2>
+
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⏱️</div>
+                    <h3 data-i18n="features.simple.title">60 seconds</h3>
+                    <p data-i18n="features.simple.desc">5 emojis. 1 question. That's it. No pressure, no performance.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3 data-i18n="features.private.title">100% private</h3>
+                    <p data-i18n="features.private.desc">All data stays on your phone. Nothing uploaded, tracked, or analyzed.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3 data-i18n="features.price.title">One-time purchase</h3>
+                    <p data-i18n="features.price.desc">249 SEK. Once. Forever yours. No subscriptions, no recurring fees.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🌙</div>
+                    <h3 data-i18n="features.design.title">Calm design</h3>
+                    <p data-i18n="features.design.desc">Dark mode only. Generous spacing. Built for when you're feeling vulnerable.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works">
+            <h2 class="section-title" data-i18n="how.title">How it works</h2>
+
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3 data-i18n="how.step1.title">Choose your mood</h3>
+                    <p data-i18n="how.step1.desc">Tap the emoji that matches how you're feeling right now.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3 data-i18n="how.step2.title">Reflect</h3>
+                    <p data-i18n="how.step2.desc">Answer a simple question. Write as much or as little as you want.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3 data-i18n="how.step3.title">Done</h3>
+                    <p data-i18n="how.step3.desc">That's it. Close the app. Come back tomorrow if you want.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="not-therapy">
+            <div class="not-therapy-content">
+                <h2 data-i18n="nottherapy.title">This is not therapy</h2>
+                <p data-i18n="nottherapy.desc">Soft Landing is a place to write for yourself. We don't give advice, analyze your feelings, or track your progress. If you need professional support, we include crisis resources in the app.</p>
+            </div>
+        </section>
+
+        <section id="download" class="download">
+            <h2 class="section-title" data-i18n="download.title">Ready to start?</h2>
+            <p class="download-subtitle" data-i18n="download.subtitle">Available on iPhone and iPad. iOS 17.0 or later.</p>
+
+            <a href="#" class="app-store-badge" aria-label="Download on the App Store">
+                <svg viewBox="0 0 120 40" class="app-store-svg">
+                    <rect width="120" height="40" rx="5" fill="#000"/>
+                    <text x="60" y="14" text-anchor="middle" fill="#fff" font-size="8" font-family="system-ui">Download on the</text>
+                    <text x="60" y="28" text-anchor="middle" fill="#fff" font-size="14" font-weight="600" font-family="system-ui">App Store</text>
+                </svg>
+            </a>
+
+            <p class="download-price" data-i18n="download.price">Free 14-day trial, then 249 SEK one-time purchase</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a>
+                <a href="support.html" data-i18n="footer.support">Support</a>
+            </div>
+            <p class="footer-copy">&copy; 2025 Soft Landing</p>
+        </div>
+    </footer>
+
+    <script src="i18n.js"></script>
+</body>
+</html>
